@@ -11,10 +11,15 @@ body {
     text-align: center;
     /* Dette er en kommentar i CSS */
 }
+img {
+    position: fixed;
+    width: 200px;
+    top: 20px;
+    left: 20px;
+}
 #container {
     background-color: red;
-    width: 250px;
-    height: 250px; 
+    padding: 20px; 
 }
 p.paragraphStyle {
     background-color: blue;
@@ -22,7 +27,18 @@ p.paragraphStyle {
     padding: 5px;
 }
 .buttonStyle {
-    background-color: lightgreen;
+    /* background-color: lightgreen;
     color: #2e2e2e;
-    border: none;
+    border: none; */
+    cursor: pointer;
+}
+.ulist {
+    list-style: decimal;
+    display: flex;
+    flex-direction: column;
+}
+.olist {
+    list-style: circle;
+    display: flex;
+    flex-direction: column;
 }

@@ -17,9 +17,35 @@
         <hr> <!--Dette er en Linje-->
         <span style="background-color: violet;">Dette er en span tag</span>
         <br> <!--dette er en break-->
-        <button class="buttonStyle">Dette er en knapp</button>
-
+        <button onclick="buttonClick()" class="buttonStyle">Dette er en knapp</button>
+        <!-- ul Unordered list med punkter -->
+        <ul class="ulist">
+            <li>Stæsj 1</li>
+            <li>Stæsj 2</li>
+            <li>Stæsj 3</li>
+            <li>Stæsj 4</li>
+        </ul>
+        <!-- ol Ordered list med tall -->
+        <ol class="olist">
+            <li>Stæsj 1</li>
+            <li>Stæsj 2</li>
+            <li>Stæsj 3</li>
+            <li>Stæsj 4</li>
+        </ol>
+        <img class="logo" src="https://www.logoai.com/oss/icons/2021/10/27/IUc8ohx-nsXP3sK.png"/>
     </div>
     <!-- <a href="https://google.com/">Dette er en link</a> -->
+
+<script>
+    function buttonClick(){
+        let num1 = 71;
+        let num2 = 7324;
+
+        let sum = num1 + num2;
+
+        alert(`${num1} + ${num2} = ${sum}`);
+    }
+</script>
+
 </body>
 </html>
